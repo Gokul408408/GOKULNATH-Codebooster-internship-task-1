@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div><ul class="first">
+            <li style="font-weight: bolder;">Info</li>
+            <br>
+            <li>Formats</li>
+            <li>Compression</li>
+            <li>Pricing</li>
+            <li>FAQ</li>
+            <li>Status</li>
+            <li>Policy</li>
+        </ul></div>
+        <div ><ul class="second">
+            <li style="font-weight: bolder;">Getting Started</li>
+            <br>
+            <li>introduction</li>
+            <li>Themes</li>
+            <li>Documentation</li>
+            <li>Usages</li>
+            <li>Elements</li>
+            <li>Global</li>
+        </ul></div>
+        <div ><ul class="third">
+            <li style="font-weight: bolder;">Resources</li>
+            <br>
+            <li>API</li>
+            <li>Form Validation</li>
+            <li>Accessibility</li>
+            <li>Marketplace</li>
+            <li>Visibility</li>
+            <li>Community</li>
+        </ul></div>
+   
+      <div ><ul class="fourth">
+            <li style="font-weight: bolder;">Nwesletter</li>
+            <br>
+            <li>Subscribe to our newsletter for a weekly dose<br> 
+            of news,updates,helpful tips,and <br>
+            exclusive offers.</li>
+            <br>
+            <div><ul class="email">
+                <li><input type="email" class="input" placeholder="Your email"></li>
+                <br><br><br>
+                <li><button class="button"> <b>SUBSCRIBE</button></li>
+            </ul></div>
+            <div>
+            <ul class="socialmedia">
+                     <li><img src="Images\icons8-facebook-20.png" alt="facebook"></li>
+                     <li><img src="Images\icons8-github-20.png" alt="github"></li>
+                     <li><img src="Images\icons8-linkedin-20.png" alt="linkedin"></li>
+                     <li><img src="Images\icons8-twitter-20.png" alt="xcom"></li>
+                </ul></div>
+            
+           
+        </ul></div> </div>
+</body>
+
+<style>
+    .card{
+        background-color:#020215;
+        display: flex;
+        flex-direction: row;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        text-decoration: none;
+        justify-content: space-between;
+        padding: 5px;
+        margin-top: 498px;
+    }
+    .first,.second,.third{
+         color: white;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: 100px;
+          list-style: none;
+          
+    }
+    .fourth{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+         font-weight: 100px;
+          list-style: none;
+    }
+    .email{
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+       gap: 10px;
+       margin-left: -40px;
+
+    }
+    .socialmedia{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 10px;
+        margin-left:-40px;
+    }
+    ul li{
+        margin-bottom: 10px;
+    }
+    .button{
+        background-color: white;
+        color: black;
+        padding: 12px;
+        border-radius: 5px;
+}
+.input{
+    background-color:black ;
+    padding: 12px;
+     color: white;
+    border-radius: 5px;
+    border-color: blue;
+}
+input::placeholder{
+    color: white;
+    
+}
+</style>
+
+</html>
